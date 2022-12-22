@@ -72,7 +72,5 @@ describe("Test Suite", () => {
         // * Check that the code matches the one entered in paragraph 2
         const pasteCode = await $('<ol>');
         expect(await pasteCode.getText()).toEqual('git config --global user.name "New Sheriff in Town"\ngit reset $ (git commit-tree HEAD ^ {tree} -m "Legacy code")\ngit push origin master --force"');
-
-        await browser.pause(10000);
     })
 })
