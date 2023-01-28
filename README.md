@@ -1,4 +1,4 @@
-<!-- # WebdriverIO - (Tasks For Stage 2)
+# WebdriverIO - (Tasks For Stage 2)
 
 Instructions:
 
@@ -28,4 +28,4 @@ Open folder and run following command in the terminal:
 4) Run following command in the terminal to execute the code:
 
 4.1) npm run wdio
- -->
+
