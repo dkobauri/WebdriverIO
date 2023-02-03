@@ -1,12 +1,8 @@
-# WebdriverIO - (Tasks For Stage 2)
+# Open folder and run following command in the terminal:
 
-Instructions:
+- npm init -y
 
-- Open folder and run following command in the terminal:
-
-npm init -y
-
-npm init wdio
+- npm init wdio
 
 (Where should your tests be lunched? -> local)
 
@@ -28,16 +24,16 @@ npm init wdio
 
 (Do you want to run "npm install" -> Y)
 
-- configure "wdio.conf.js" file: 
+# Configure "wdio.conf.js" file: 
 
-'./test/specs/**/*.js' (specs)
+- './test/specs/**/*.js' (specs)
 
-maxInstances:1 (capabilities)
+- maxInstances:1 (capabilities)
 
-logLevel: 'error'
+- logLevel: 'error'
 
-- Move 'test/specs' folder from repository to your folder.
+# Move 'test/specs' folder from repository to your folder.
 
-- Run following command in the terminal to execute the code:
+# Run following command in the terminal to execute the code:
 
-npm run wdio
+- npm run wdio
